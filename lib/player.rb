@@ -1,9 +1,9 @@
  class Player 
   attr_accessor :name, :life_points
 
-  def initialize(name, life_points=10)
+  def initialize(name)
     @name=name
-    @life_points = life_points
+    @life_points = 10
   end
 
   def show_state
